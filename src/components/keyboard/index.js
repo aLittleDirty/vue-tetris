@@ -55,15 +55,15 @@ export default {
       event.preventDefault();
     });
     
-    document.addEventListener(
-      'mousedown',
-      e => {
-        if (e.preventDefault) {
-          e.preventDefault()
-        }
-      },
-      true
-    )
+    // document.addEventListener(
+    //   'mousedown',
+    //   e => {
+    //     if (e.preventDefault) {
+    //       e.preventDefault()
+    //     }
+    //   },
+    //   true
+    // )
     Object.keys(todo).forEach(key => {
       this.$refs[`dom_${key}`].$el.addEventListener(
         'mousedown',

@@ -1,5 +1,6 @@
 <template>
   <div class="app" :style="size">
+    <LevelChoice :speedStart = "speedStart"/>
     <div class="rect" :class="drop?'drop':''">
       <Decorate/>
       <div class="screen">

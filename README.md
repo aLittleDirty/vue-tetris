@@ -12,7 +12,7 @@ Please view [README.md](https://github.com/Binaryify/vue-tetris/blob/master/READ
 ### 效果预览
 ![效果预览](https://img.alicdn.com/tps/TB1Ag7CNXXXXXaoXXXXXXXXXXXX-320-483.gif)
 
-正常速度的录制，体验流畅。
+正常速度的录制，体验流畅。3
 
 ### 响应式
 ![响应式](https://img.alicdn.com/tps/TB1AdjZNXXXXXcCapXXXXXXXXXX-480-343.gif)

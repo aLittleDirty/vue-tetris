@@ -1,6 +1,5 @@
 <template>
   <div class="app" :style="size">
-    <LevelChoice :speedStart = "speedStart"/>
     <div class="rect" :class="drop?'drop':''">
       <Decorate/>
       <div class="screen">
@@ -11,8 +10,10 @@
             <Point :cur="!!cur" :max="max" :point="points" />
             <p>{{pContent}}</p>
             <Number :number='cur ? clearLines : startLines' />
+            <LevelChoice :degree = "startLines" :maxNumber = "10" :minNumber = "0" :nameKey = "stringStartLine"/>            
             <p>{{level}}</p>
             <Number :number='cur?speedRun:speedStart' :length="1" />
+            <LevelChoice :degree = "speedStart" :maxNumber = "6" :minNumber = "1" :nameKey = "stringSpeedStart"/>
             <p>{{nextText}}</p>
             <Next :data="next" />
             <div class="bottom">

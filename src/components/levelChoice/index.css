@@ -1,24 +1,12 @@
-.levelChoice{
+.levelChoice{ 
     position: absolute;
-    left:700px;
-    top:100px;
-    width:200px;
-}
+    right: 0;
+    opacity: 0;
+} 
 
 input{
-    font-size:30px;
-    border:2px solid rgba(144,144,144,1);
-    width:80px;
-    margin:10px;
+    font-size:24px;
+    border:1px solid rgba(144,144,144,1);
+    background-color: rgba(158,173,134,1);
     text-align:center;
-}
-
-button{
-    width:60px;
-    height:25px;
-    border:2px solid rgba(144,144,144,1);
-}
-
-button:hover{
-    background-color: rgba(230,230,230,1);
 }

@@ -1,8 +1,10 @@
 <template>
 <div class="levelChoice">
-    <p>请输入游戏级别</p>
-    <input type="number" min="1" max="6" v-model="level"/>
-    <button @click="updateLevel">确定</button>
+    <input type="number" min="1" max="6" 
+    v-model="level" 
+    @blur="updateLevel($event)"
+    @keyup.enter="updateLevel($event)"
+    @dblclick="showComponent($event)"/>
 </div>
 </template>
 <script src="./index.js"></script>

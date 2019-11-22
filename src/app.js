@@ -23,7 +23,9 @@ export default {
       size: {},
       w: document.documentElement.clientWidth,
       h: document.documentElement.clientHeight,
-      filling: ''
+      filling: '',
+      stringStartLine:'startLines',
+      stringSpeedStart:'speedStart'
     }
   },
   components: {
